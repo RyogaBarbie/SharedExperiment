@@ -7,14 +7,14 @@
 
 import SharedLibrary
 
-public final class CallerSharedLibrary {
-    let sharedLibrary: SharedLibrary
-    public init(
-        sharedLibrary: SharedLibrary = SharedLibrary.sharedInstance
-    ) {
-        self.sharedLibrary = sharedLibrary
-    }
-    public func callSayHello() {
-        sharedLibrary.sayHello()
-    }
-}
+//public final class CallerSharedLibrary {
+//    let sharedLibrary: SharedLibrary
+//    public init(
+//        sharedLibrary: SharedLibrary = SharedLibrary.sharedInstance
+//    ) {
+//        self.sharedLibrary = sharedLibrary
+//    }
+//    public func callSayHello() {
+//        sharedLibrary.sayHello()
+//    }
+//}
