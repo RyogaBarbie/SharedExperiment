@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2D6DA42637BA8600F1940A /* SharedFramework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF2403E2637ADA400952AFC /* SharedFramework2.framework */; };
+		AD2D6DA52637BA8600F1940A /* SharedFramework2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADF2403E2637ADA400952AFC /* SharedFramework2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ADF23FC626367A3E00952AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF23FC526367A3E00952AFC /* AppDelegate.swift */; };
 		ADF23FC826367A3E00952AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF23FC726367A3E00952AFC /* SceneDelegate.swift */; };
 		ADF23FCA26367A3E00952AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF23FC926367A3E00952AFC /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		ADF23FDC26367B1400952AFC /* libSharedLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FDB26367B1400952AFC /* libSharedLibrary.a */; };
 		ADF23FF926367B8300952AFC /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FF726367B6A00952AFC /* SharedFramework.framework */; };
 		ADF23FFA26367B8300952AFC /* SharedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FF726367B6A00952AFC /* SharedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ADF2403F2637ADA400952AFC /* SharedFramework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF2403E2637ADA400952AFC /* SharedFramework2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				ADF23FFA26367B8300952AFC /* SharedFramework.framework in Embed Frameworks */,
+				AD2D6DA52637BA8600F1940A /* SharedFramework2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,9 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF2403F2637ADA400952AFC /* SharedFramework2.framework in Frameworks */,
 				ADF23FF926367B8300952AFC /* SharedFramework.framework in Frameworks */,
 				ADF23FDC26367B1400952AFC /* libSharedLibrary.a in Frameworks */,
+				AD2D6DA42637BA8600F1940A /* SharedFramework2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

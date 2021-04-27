@@ -20,12 +20,12 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "62A7F72A-66A5-4CF0-8AD5-DF7008545094 - c5aed94ccc9fe388"
+                  uuid = "62A7F72A-66A5-4CF0-8AD5-DF7008545094 - 65777d11a84bbfdb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SharedLibrary.LaunchTracker.init() -&gt; SharedLibrary.LaunchTracker"
-                  moduleName = "SharedFramework2"
+                  moduleName = "SharedFramework"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yamamuraryoga/projects/tmp/SharedExperiment/SharedLibrary/SharedLibrary/SharedLibrary.swift"
                   startingColumnNumber = "9223372036854775807"
@@ -35,12 +35,12 @@
                   offsetFromSymbolStart = "89">
                </Location>
                <Location
-                  uuid = "62A7F72A-66A5-4CF0-8AD5-DF7008545094 - 65777d11a84bbfdb"
+                  uuid = "62A7F72A-66A5-4CF0-8AD5-DF7008545094 - c5aed94ccc9fe388"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SharedLibrary.LaunchTracker.init() -&gt; SharedLibrary.LaunchTracker"
-                  moduleName = "SharedFramework"
+                  moduleName = "SharedFramework2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yamamuraryoga/projects/tmp/SharedExperiment/SharedLibrary/SharedLibrary/SharedLibrary.swift"
                   startingColumnNumber = "9223372036854775807"
@@ -62,40 +62,8 @@
             filePath = "SharedApp/SharedApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "46CA18C1-59CB-44F1-A786-AC60404E0F82"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SharedApp/SharedApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "361D2F7F-F97B-4F41-959B-C849472D9A70"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SharedApp/SharedApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -161,6 +129,54 @@
             startingLineNumber = "23"
             endingLineNumber = "23"
             landmarkName = "increment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B1C735F-C305-4F5A-948C-5F9CD5F0612C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharedApp/SharedApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B340E2D-D4AA-4E8E-85D7-FDB6035E213E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharedApp/SharedApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18BBDA60-F788-44F2-A9BF-8731C450357A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharedApp/SharedApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

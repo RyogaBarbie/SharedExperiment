@@ -13,16 +13,18 @@ import SharedFramework2
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-
         let launchTracker = LaunchTracker.sharedInstance
+
         EtapoWorker().increment()
         FirebaseWorker().increment()
+
+        super.viewDidLoad()
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         EtapoWorker().increment()
+        FirebaseWorker().increment()
+        super.viewWillAppear(animated)
     }
 
 
