@@ -6,17 +6,14 @@
 //
 
 public final class LaunchTracker {
-    public static var sharedInstance: LaunchTracker!
+    public var number = 0
+    public static let sharedInstance: LaunchTracker = .init()
 
-    public init() {}
+    public init() {
+        print("LaunchTracker init")
+    }
+
+    public func increment() {
+        number += 1
+    }
 }
-
-//public final class SharedLibrary {
-//    public static var sharedInstance: SharedLibrary!
-//
-//    public init() {}
-//
-//    public func sayHello() {
-//        print("Hello")
-//    }
-//}

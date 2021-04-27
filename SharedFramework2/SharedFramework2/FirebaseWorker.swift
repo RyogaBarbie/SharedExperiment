@@ -1,25 +1,25 @@
 //
-//  SharedFramework.swift
-//  SharedFramework
+//  FirebaseWorker.swift
+//  SharedFramework2
 //
-//  Created by yamamura ryoga on 2021/04/26.
+//  Created by yamamura ryoga on 2021/04/27.
 //
 
 import Foundation
 import SharedLibrary
 
-public final class EtapoWorker {
+public final class FirebaseWorker {
     public let launchTracker: LaunchTracker
 
     public init(
         launchTracker: LaunchTracker = LaunchTracker.sharedInstance
     ) {
         self.launchTracker = launchTracker
-        print("EtapoWorker init")
+        print("FirebaseWorker init")
     }
 
     public func increment() {
-        LaunchTracker.sharedInstance.increment() // こいつだけ再度launchTrackerのinitが走り別アドレスになる
+        LaunchTracker.sharedInstance.increment()
         self.launchTracker.increment()
     }
 }

@@ -8,14 +8,21 @@
 import UIKit
 import SharedLibrary
 import SharedFramework
-import CallerSharedLibrary
+import SharedFramework2
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        EtapoWorker().sendToFirehose()
+        let launchTracker = LaunchTracker.sharedInstance
+        EtapoWorker().increment()
+        FirebaseWorker().increment()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        EtapoWorker().increment()
     }
 
 

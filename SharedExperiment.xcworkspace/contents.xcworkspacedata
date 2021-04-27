@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CallerSharedLibrary/CallerSharedLibrary.xcodeproj">
+      location = "group:SharedFramework2/SharedFramework2.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SharedFramework/SharedFramework.xcodeproj">

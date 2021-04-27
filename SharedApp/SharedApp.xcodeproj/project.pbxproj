@@ -16,7 +16,7 @@
 		ADF23FDC26367B1400952AFC /* libSharedLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FDB26367B1400952AFC /* libSharedLibrary.a */; };
 		ADF23FF926367B8300952AFC /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FF726367B6A00952AFC /* SharedFramework.framework */; };
 		ADF23FFA26367B8300952AFC /* SharedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FF726367B6A00952AFC /* SharedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ADF2401826367E8E00952AFC /* libCallerSharedLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF2401726367E8E00952AFC /* libCallerSharedLibrary.a */; };
+		ADF2403F2637ADA400952AFC /* SharedFramework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF2403E2637ADA400952AFC /* SharedFramework2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +45,7 @@
 		ADF23FDB26367B1400952AFC /* libSharedLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSharedLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF23FF726367B6A00952AFC /* SharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF2401726367E8E00952AFC /* libCallerSharedLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCallerSharedLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF2403E2637ADA400952AFC /* SharedFramework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedFramework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF2401826367E8E00952AFC /* libCallerSharedLibrary.a in Frameworks */,
+				ADF2403F2637ADA400952AFC /* SharedFramework2.framework in Frameworks */,
 				ADF23FF926367B8300952AFC /* SharedFramework.framework in Frameworks */,
 				ADF23FDC26367B1400952AFC /* libSharedLibrary.a in Frameworks */,
 			);
@@ -95,6 +96,7 @@
 		ADF23FDA26367B1400952AFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADF2403E2637ADA400952AFC /* SharedFramework2.framework */,
 				ADF2401726367E8E00952AFC /* libCallerSharedLibrary.a */,
 				ADF23FF726367B6A00952AFC /* SharedFramework.framework */,
 				ADF23FDB26367B1400952AFC /* libSharedLibrary.a */,

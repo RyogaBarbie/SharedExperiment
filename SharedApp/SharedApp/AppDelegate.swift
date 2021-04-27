@@ -12,8 +12,8 @@ import SharedLibrary
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let launchTracker = LaunchTracker()
-        LaunchTracker.sharedInstance = launchTracker
+//        let launchTracker = LaunchTracker()
+//        LaunchTracker.sharedInstance = launchTracker
 //        let sharedLibrary = SharedLibrary()
 //        SharedLibrary.sharedInstance = sharedLibrary
         return true

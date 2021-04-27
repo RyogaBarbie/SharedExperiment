@@ -10,7 +10,6 @@
 		ADF23FEC26367B4A00952AFC /* SharedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF23FEA26367B4A00952AFC /* SharedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADF23FF626367B5900952AFC /* libSharedLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF23FF526367B5900952AFC /* libSharedLibrary.a */; };
 		ADF23FFD26367BA200952AFC /* SharedFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF23FFC26367BA200952AFC /* SharedFramework.swift */; };
-		ADF2401A2636806700952AFC /* libCallerSharedLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF240192636806700952AFC /* libCallerSharedLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF23FF626367B5900952AFC /* libSharedLibrary.a in Frameworks */,
-				ADF2401A2636806700952AFC /* libCallerSharedLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
