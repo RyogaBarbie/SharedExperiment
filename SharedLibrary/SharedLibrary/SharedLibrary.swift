@@ -9,9 +9,7 @@ public final class LaunchTracker {
     public var number = 0
     public static let sharedInstance: LaunchTracker = .init()
 
-    public init() {
-        print("LaunchTracker init")
-    }
+    public init() {}
 
     public func increment() {
         number += 1

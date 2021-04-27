@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SharedFramework3/SharedFramework3.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SharedFramework2/SharedFramework2.xcodeproj">
    </FileRef>
    <FileRef

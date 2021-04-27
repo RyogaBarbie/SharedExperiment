@@ -12,14 +12,15 @@ public final class FirebaseWorker {
     public let launchTracker: LaunchTracker
 
     public init(
-        launchTracker: LaunchTracker = LaunchTracker.sharedInstance
+        _ launchTracker: LaunchTracker// = LaunchTracker.sharedInstance
     ) {
         self.launchTracker = launchTracker
-        print("FirebaseWorker init")
+        print("FirebaseWorker")
     }
 
     public func increment() {
         LaunchTracker.sharedInstance.increment()
         self.launchTracker.increment()
+        print("FirebaseWorker")
     }
 }
